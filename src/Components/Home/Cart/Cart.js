@@ -6,7 +6,7 @@ import CartItem from './CartItem';
 import styles from './Cart.module.css';
 
 const Cart = ({ isCheckout }) => {
-  const mobile = useMedia('(max-width: 390px)');
+  const mobile = useMedia('(max-width: 500px)');
   const { cart, total, openCart, setOpenCart } = React.useContext(GlobalContext);
   const navigate = useNavigate();
 

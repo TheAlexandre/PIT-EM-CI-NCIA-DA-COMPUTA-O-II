@@ -6,7 +6,7 @@ import Form from './Form/Form';
 import styles from './Checkout.module.css';
 
 const Checkout = () => {
-  const mobile = useMedia('(max-width: 390px)');
+  const mobile = useMedia('(max-width: 500px)');
 
   return (
     <div className={`${styles.checkout} ${mobile && styles.openCheckout}`}>

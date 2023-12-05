@@ -39,7 +39,7 @@
   transform: scale(1.01);
 }
 
-@media (max-width: 480px){
+@media (max-width: 500px){
 
   .form {
     padding: 16px;

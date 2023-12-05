@@ -59,7 +59,7 @@ ion-icon {
   }
 }
 
-@media (max-width: 480px){
+@media (max-width: 500px){
 
   .finishContainer {
     background-color: #ffffff;

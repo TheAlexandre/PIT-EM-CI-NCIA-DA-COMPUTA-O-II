@@ -15,7 +15,7 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 480px){
+@media (max-width: 500px){
 
   .products {
     padding: 0px;

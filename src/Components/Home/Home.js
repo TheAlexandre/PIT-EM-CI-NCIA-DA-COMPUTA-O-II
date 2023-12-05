@@ -9,7 +9,7 @@ import ObsItem from './Cart/ObsItem';
 import styles from './Home.module.css';
 
 const Home = () => {
-  const mobile = useMedia('(max-width: 390px)');
+  const mobile = useMedia('(max-width: 500px)');
   const { openCart, setOpenCart, openObs, cart } = React.useContext(GlobalContext);
 
   function handleOpenCart() {
