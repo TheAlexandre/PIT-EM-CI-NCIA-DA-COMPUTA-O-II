@@ -24,15 +24,7 @@ const HomeNav = () => {
       <NavLink to="/Salgados" activeClassName={styles.active}>
         <BreadIcon />
         Salgados
-      </NavLink>
-      {/* <NavLink to="/Combos" activeClassName={styles.active}>
-        <CombosIcon />
-        Combos
-      </NavLink>
-      <NavLink to="/Burguers" activeClassName={styles.active}>
-        <BurguersIcon />
-        Burguers
-      </NavLink> */}
+      </NavLink>     
     </nav>
   );
 };
