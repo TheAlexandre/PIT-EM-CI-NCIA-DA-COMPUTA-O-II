@@ -9,7 +9,7 @@ const Checkout = () => {
   const mobile = useMedia('(max-width: 390px)');
 
   return (
-    <div className={`${styles.checkout} ${mobile && styles.openCheckout}`}>
+    <div className={`${mobile && styles.openCheckout}`}>
       <div className={styles.mainCheckout}>
         <Link to="/">← Voltar</Link>
         <div className={styles.formArea}>
